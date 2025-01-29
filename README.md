@@ -5,9 +5,13 @@
 
 
 🌟 About Me
+
 🔭 Working on: AR-VR Game Projects & Full-Stack Development
+
 🚀 Founder of: NexCore Games
+
 🎮 Competitive Call of Duty Player (Legendary Rank)
+
 💡 Exploring: Entrepreneurship & Traveling
 
 🛠 Skills & Tech Stack
