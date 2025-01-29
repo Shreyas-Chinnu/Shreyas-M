@@ -32,9 +32,9 @@
 
 📈 GitHub Stats
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM336&show_icons=true&theme=dark)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM336&theme=dark)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM336&layout=compact&theme=dark)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM&show_icons=true&theme=dark)  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM&theme=dark)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
 
 📫 **Connect with Me:**  
 🌐 Portfolio: [your-portfolio-link.com](your-portfolio-link.com)  
