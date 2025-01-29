@@ -33,7 +33,7 @@
 📈 GitHub Stats
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM&show_icons=true&theme=dark) 
-![GitHub Streak](https://github-readme-streak-stats.vercel.app/?user=Shreyas M)
+![GitHub Streak](https://github-readme-streak-stats.vercel.app/?user=ShreyasM)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
 
 📫 **Connect with Me:**  
