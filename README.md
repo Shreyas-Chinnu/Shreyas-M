@@ -31,7 +31,6 @@
 - Python
 
 📈 GitHub Stats
-## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM&show_icons=true&theme=dark) 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
 
@@ -42,14 +41,3 @@
 ✉️ E-mail: mshreyas336@gmail.com  
 
 🔥 Let's Build Something Amazing Together! 🚀 If you're into gaming, startups, or full-stack development, let's collaborate! 💡
-
-
-📫 Connect with Me
-🌐 Portfolio: your-portfolio-link.com
-🏢 LinkedIn: linkedin.com/in/your-profile
-📷 Instagram: instagram.com/your-profile
-✉️ E-mail: mshreyas336@gmail.com
-
-🔥 Let's Build Something Amazing Together! 🚀
-If you're into gaming, startups, or full-stack development, let's collaborate! 💡
-
