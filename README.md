@@ -37,9 +37,8 @@
 - ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
 
 📫 **Connect with Me:**  
-🌐 Portfolio: [your-portfolio-link.com](your-portfolio-link.com)  
-🏢 LinkedIn: [linkedin.com/in/your-profile](linkedin.com/in/your-profile)  
-📷 Instagram: [instagram.com/your-profile](instagram.com/your-profile)  
+🌐 Portfolio: https://full-stack-portfolio-azure.vercel.app/ 
+🏢 LinkedIn: https://www.linkedin.com/in/shreyas-m-8854941ab/  
 ✉️ E-mail: mshreyas336@gmail.com  
 
 🔥 Let's Build Something Amazing Together! 🚀 If you're into gaming, startups, or full-stack development, let's collaborate! 💡
