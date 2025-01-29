@@ -3,15 +3,15 @@
 
 ### 🌟 About Me
 - 🔭 Working on **AR-VR Game Projects & Web Development**
-- 🚀 Founder of **Express Box** (Delivery App Startup)
+- 🚀 Founder of **NexCore Games**
 - 🎮 Competitive **Call of Duty** player
-- 💡 Exploring **Entrepreneurship & Cloud Kitchens**
+- 💡 Exploring **Entrepreneurship & Traveller**
 
 ### 🛠 Skills
-- 💻 Frontend: React.js, HTML, CSS, JavaScript  
-- 🖥 Backend: Node.js, PHP, MySQL  
+- 💻 Frontend: React.js, HTML, CSS, JavaScript, TypeScript, Next.js  
+- 🖥 Backend: Node.js, PHP, MySQL, MongoDB  
 - 📱 Mobile Dev: Android Studio, Java  
-- 🎮 Game Dev: Unity, C#  
+- 🎮 Game Dev: Unity, C#, C++  
 
 ### 📫 Connect with Me:
 - 🌐 [Portfolio](https://your-portfolio-link.com)
