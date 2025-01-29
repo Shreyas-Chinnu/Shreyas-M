@@ -32,7 +32,7 @@
 
 📈 GitHub Stats
 
-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM&show_icons=true&theme=dark&count_private=true&include_all_commits=true)  
+- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM&show_icons=true&theme=dark&count_private=true&include_all_commits=true)
 - ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
 
 📫 **Connect with Me:**  
