@@ -2,7 +2,7 @@
 🚀 Full Stack Developer | 🎮 Game Enthusiast | 🚚 Startup Founder  
 
 ### 🌟 About Me
-- 🔭 Working on **AR-VR Game Projects & Web Development**
+- 🔭 Working on **AR-VR Game Projects & Full-Stack Development**
 - 🚀 Founder of **NexCore Games**
 - 🎮 Competitive **Call of Duty** player
 - 💡 Exploring **Entrepreneurship & Traveller**
