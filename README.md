@@ -31,10 +31,18 @@
 - Python
 
 📈 GitHub Stats
-- ![GitHub Stats]![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM336&theme=dark)
- 
-- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
-- ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM&theme=dark)
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM336&show_icons=true&theme=dark)  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM336&theme=dark)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM336&layout=compact&theme=dark)  
+
+📫 **Connect with Me:**  
+🌐 Portfolio: [your-portfolio-link.com](your-portfolio-link.com)  
+🏢 LinkedIn: [linkedin.com/in/your-profile](linkedin.com/in/your-profile)  
+📷 Instagram: [instagram.com/your-profile](instagram.com/your-profile)  
+✉️ E-mail: mshreyas336@gmail.com  
+
+🔥 Let's Build Something Amazing Together! 🚀 If you're into gaming, startups, or full-stack development, let's collaborate! 💡
 
 
 📫 Connect with Me
