@@ -31,7 +31,8 @@
 - Python
 
 📈 GitHub Stats
-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasM336&show_icons=true&theme=dark)  
+- ![GitHub Stats]![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM336&theme=dark)
+ 
 - ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
 - ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM&theme=dark)
 
