@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Shreyas M - About Me | C.E.O | NexCore Games </title>
+    <title>Shreyas M - CEO | NexCore Games</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            color: white;
+        * {
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: white;
             text-align: center;
+            padding: 20px;
             animation: fadeIn 1.5s ease-in-out;
         }
         @keyframes fadeIn {
@@ -19,130 +23,119 @@
             to { opacity: 1; }
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease-in-out;
         }
         .container:hover {
-            transform: scale(1.02);
+            transform: scale(1.03);
         }
-        h1, h2 {
+        h1 {
+            font-size: 2.5rem;
             color: #ffcc00;
-            animation: slideIn 1s ease-in-out;
+            margin-bottom: 10px;
         }
-        @keyframes slideIn {
-            from { transform: translateY(-20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
+        h2 {
+            color: #ffcc00;
+            margin-top: 20px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            display: inline-block;
+            padding-bottom: 5px;
         }
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
         li {
-            padding: 10px;
+            padding: 12px;
             background: rgba(255, 255, 255, 0.2);
-            margin: 5px 0;
-            border-radius: 5px;
-            transition: background 0.3s;
+            margin: 8px 0;
+            border-radius: 10px;
+            transition: background 0.3s, transform 0.2s;
         }
         li:hover {
             background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
         }
         a {
             color: #ffcc00;
             text-decoration: none;
+            font-weight: bold;
             transition: color 0.3s;
         }
         a:hover {
-            text-decoration: underline;
             color: #ff9900;
+            text-decoration: underline;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 10px;
+        .highlight {
+            color: #ff9900;
+            font-weight: bold;
         }
         @media (max-width: 600px) {
             .container {
-                padding: 15px;
+                padding: 20px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>👋 Hi, I'm Shreyas M!</h1>
+        <h1>👋 Hi, I'm <span class="highlight">Shreyas M!</span></h1>
         <p>🚀 Full Stack Developer | 🎮 Game Enthusiast | 🚚 Startup Founder</p>
         
         <h2>🌟 About Me</h2>
         <ul>
-            <li>🔭 Working on: AR-VR Game Projects & Full-Stack Developer </li>
-            <li>🚀 Founder of: NexCore Games</li>
+            <li>🔭 Working on: <span class="highlight">AR-VR Game Projects</span> & Full-Stack Development</li>
+            <li>🚀 Founder of: <span class="highlight">NexCore Games</span></li>
             <li>🎮 Competitive Call of Duty Player (Legendary Rank)</li>
-            <li>💡 Exploring: Entrepreneurship & Traveling (Vlogger) </li>
-            <a href="https://www.youtube.com/@ishavlogs5331"> <li> Isha Vlogs The World Traveller </li> </a>
+            <li>💡 Exploring: Entrepreneurship & Traveling</li>
+            <li><a href="https://www.youtube.com/@ishavlogs5331">Isha Vlogs The World Traveller</a></li>
         </ul>
 
-        <h2> Internship Experience </h2>
-        <ul> 
-            <li> Softtek India Private Limited </li>
-            <li> Junior Full Stack Developer </li>
-            <li> Worked on Next JS  </li>
-        </ul>
-        <h2> Project Done </h2>
+        <h2>💼 Internship Experience</h2>
         <ul>
-            <li> TRL Logistics Website </li>
+            <li>🛠 Softtek India Private Limited</li>
+            <li>👨‍💻 Junior Full Stack Developer</li>
+            <li>🚀 Worked on <span class="highlight">Next.js</span></li>
         </ul>
+        
+        <h2>🚀 Projects Completed</h2>
+        <ul>
+            <li>📦 TRL Logistics Website</li>
+        </ul>
+        
         <h2>🛠 Skills & Tech Stack</h2>
         <h3>💻 Frontend Development</h3>
         <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>React JS, Next JS, TypeScript</li>
+            <li>🌐 HTML, CSS, JavaScript</li>
+            <li>⚛️ React.js, Next.js, TypeScript</li>
         </ul>
         
         <h3>🖥 Backend & Database</h3>
         <ul>
-            <li>Node JS, Mongo DB, MySQL</li>
+            <li>🌍 Node.js, MongoDB, MySQL</li>
         </ul>
         
         <h3>📱 Mobile Development</h3>
         <ul>
-            <li>Android Studio</li>
+            <li>📲 Android Studio</li>
         </ul>
         
         <h3>🎮 Game Development</h3>
         <ul>
-            <li>C++, C#, Python</li>
-            <li>HTML, CSS, JavaScript</li>
+            <li>🕹 C++, C#, Python</li>
         </ul>
-        <h3> Games </h3>
+        
+        <h2>🎯 NexCore Games</h2>
         <ul>
-            <li> Web-Based Games</li>
+            <li>🚀 <span class="highlight">CEO & Founder</span></li>
+            <li><a href="https://github.com/NexCore-Games">NexCore Games GitHub</a></li>
         </ul>
-        <h3> NexCore Games </h3>
-        <ul>
-            <li> C.E.O & Founder </li>
-            <a href="https://github.com/NexCore-Games"> <li> NexCore Games </li> </a>
-        </ul>
-<!--         <h2>📈 GitHub Stats</h2>
-        <p>Top Languages</p>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark" alt="GitHub Top Languages">
         
-        <p>GitHub Profile Stats</p>
-        <img src="https://github-readme-stats.vercel.app/api?username=ShreyasM&show_icons=true&theme=dark" alt="GitHub Stats">
-        
-        <p>GitHub Streak</p>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShreyasM&theme=dark" alt="GitHub Streak">
-        
-        <h2>📫 Connect with Me</h2>
-        <p>🌐 <a href="https://full-stack-portfolio-azure.vercel.app/" target="_blank">Portfolio</a></p>
-        <p>🏢 <a href="https://www.linkedin.com/in/shreyas-m-8854941ab/" target="_blank">LinkedIn</a></p>
-        <p>✉️ <a href="mailto:mshreyas336@gmail.com">mshreyas336@gmail.com</a></p>
-         -->
         <h2>🔥 Let's Build Something Amazing Together!</h2>
         <p>If you're into gaming, startups, or full-stack development, let's collaborate! 💡</p>
     </div>
