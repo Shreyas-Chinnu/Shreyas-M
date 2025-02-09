@@ -360,59 +360,6 @@
             text-align: center;
             overflow-x: hidden;
         }
-
-        /* Navbar */
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s;
-        }
-        .navbar a:hover {
-            color: #ff0099;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 250px;
-            height: 100vh;
-            background: rgba(0, 0, 0, 0.8);
-            padding: 20px;
-            transform: translateX(-250px);
-            transition: transform 0.3s ease-in-out;
-        }
-        .sidebar.active {
-            transform: translateX(0);
-        }
-        .sidebar a {
-            display: block;
-            color: white;
-            padding: 10px 0;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        .sidebar a:hover {
-            color: #ff0099;
-        }
-        .menu-btn {
-            font-size: 1.5rem;
-            cursor: pointer;
-        }
-
         /* Hero Section */
         .hero {
             height: 100vh;
@@ -488,19 +435,6 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <span class="menu-btn">&#9776;</span>
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <div class="sidebar">
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </div>
     <div class="hero">
         <h1>👋 Hi, I'm Shreyas M!</h1>
         <p class="subtitle">Full Stack Developer | Game Enthusiast | Startup Founder</p>
