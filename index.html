@@ -355,142 +355,87 @@
             font-family: 'Poppins', sans-serif;
         }
         body {
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
             color: white;
             text-align: center;
-            padding: 20px;
             overflow-x: hidden;
-            animation: fadeIn 1.5s ease-in-out;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            perspective: 1000px;
         }
 
-        /* Gradient Animation for Background */
-        body::before {
-            content: '';
+        /* Particle Background */
+        #particles-js {
             position: fixed;
-            top: 0;
-            left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, #ff0099, #493240, #ff0099, #493240);
-            background-size: 400% 400%;
-            z-index: -1;
-            animation: gradientBG 15s ease infinite;
-        }
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        /* Navbar */
-        .navbar {
-            position: fixed;
             top: 0;
             left: 0;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.7);
-            padding: 10px 20px;
+            z-index: -1;
+        }
+
+        /* 3D Parallax Container */
+        .parallax-container {
+            position: relative;
+            transform-style: preserve-3d;
+            min-height: 100vh;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            z-index: 1000;
-            backdrop-filter: blur(10px);
-        }
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: 500;
-            transition: color 0.3s, transform 0.3s;
-        }
-        .navbar a:hover {
-            color: #ffcc00;
-            transform: translateY(-3px);
+            padding: 20px;
         }
 
-        /* Container */
-        .container {
-            max-width: 900px;
-            margin: 80px auto 20px;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            backdrop-filter: blur(10px);
-        }
-        .container:hover {
-            transform: scale(1.03);
-            box-shadow: 0px 0px 30px rgba(255, 204, 0, 0.6);
-        }
-
-        /* Headings */
+        /* Holographic Text */
         h1 {
-            font-size: 2.5rem;
-            color: #ffcc00;
-            margin-bottom: 10px;
-            animation: slideIn 1s ease-in-out;
+            font-size: 4rem;
+            background: linear-gradient(45deg, #ff0099, #00ffcc, #ff0099);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: hologram 3s infinite alternate;
         }
-        h2 {
-            color: #ffcc00;
-            margin-top: 20px;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-            display: inline-block;
-            padding-bottom: 5px;
-            animation: slideIn 1.2s ease-in-out;
-        }
-        @keyframes slideIn {
-            from { transform: translateY(-20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
+        @keyframes hologram {
+            0% { transform: translateZ(0); }
+            100% { transform: translateZ(50px); }
         }
 
-        /* List Items */
-        ul {
-            list-style: none;
-            padding: 0;
+        /* Glowing Cards */
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+            transform: translateZ(20px);
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        li {
-            padding: 12px;
-            background: rgba(255, 255, 255, 0.2);
-            margin: 8px 0;
-            border-radius: 10px;
-            transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
-        }
-        li:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: scale(1.05);
-            box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.4);
+        .card:hover {
+            transform: translateZ(50px);
+            box-shadow: 0 0 40px rgba(255, 204, 0, 0.8);
         }
 
-        /* Links */
+        /* Neon Links */
         a {
-            color: #ffcc00;
+            color: #00ffcc;
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.3s;
+            transition: color 0.3s, text-shadow 0.3s;
         }
         a:hover {
-            color: #ff9900;
-            text-decoration: underline;
-        }
-        .highlight {
-            color: #ff9900;
-            font-weight: bold;
+            color: #ff0099;
+            text-shadow: 0 0 10px #ff0099;
         }
 
-        /* Social Links */
+        /* Social Icons */
         .social-links a {
             margin: 0 10px;
-            font-size: 1.2rem;
-            transition: transform 0.3s, color 0.3s;
+            font-size: 1.5rem;
+            color: #00ffcc;
+            transition: color 0.3s, transform 0.3s;
         }
         .social-links a:hover {
-            color: #ff9900;
-            transform: translateY(-3px);
+            color: #ff0099;
+            transform: translateY(-5px);
         }
 
         /* Footer */
@@ -498,121 +443,97 @@
             margin-top: 40px;
             padding: 20px;
             background: rgba(0, 0, 0, 0.7);
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
             backdrop-filter: blur(10px);
         }
         footer p {
             margin: 10px 0;
             font-size: 0.9rem;
         }
-        footer .footer-links a {
-            margin: 0 10px;
-            font-size: 1.2rem;
-            color: #ffcc00;
-            transition: color 0.3s, transform 0.3s;
-        }
-        footer .footer-links a:hover {
-            color: #ff9900;
-            transform: translateY(-3px);
-        }
-
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px;
-            }
-            .navbar {
-                flex-direction: column;
-                padding: 10px;
-            }
-            .navbar a {
-                margin: 5px 0;
-            }
-            footer .footer-links a {
-                margin: 5px;
-                font-size: 1rem;
-            }
-        }
     </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="social-links">
-            <a href="https://github.com/NexCore-Games" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.youtube.com/@ishavlogs5331" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.linkedin.com/in/shreyas-m-8854941ab/"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </nav>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
 
-    <div class="container">
+    <!-- Parallax Container -->
+    <div class="parallax-container">
         <h1>👋 Hi, I'm <span class="highlight">Shreyas M!</span></h1>
         <p> Full Stack Developer | Game Enthusiast | Startup Founder</p>
-        
-        <h2 id="about">🌟 About Me</h2>
-        <ul>
-            <li> Working on: <span class="highlight">AR-VR Game Projects</span> & Full-Stack Development</li>
-            <li> Founder of: <span class="highlight">NexCore Games</span></li>
-            <li> Competitive Call of Duty Player (Legendary Rank)</li>
-            <li> Exploring: Traveling, Solo Rider </li>
-            <li><a href="https://www.youtube.com/@ishavlogs5331">Isha Vlogs The World Traveller</a></li>
-        </ul>
 
-        <h2 id="experience">💼 Internship Experience</h2>
-        <ul>
-            <li> Softtek India Private Limited</li>
-            <li> Junior Full Stack Developer</li>
-            <li> Worked on <span class="highlight">Next.js + Backend (Full-Stack Development) </span></li>
-        </ul>
-        
-        <h2 id="projects">🚀 Projects Completed</h2>
-        <ul>
-            <li>📦 TRL Logistics Website</li>
-            <a href="https://logistic-project-ch2b.vercel.app/"><li> TRL </li></a>
-        </ul>
-        
-        <h2 id="skills">🛠 Skills & Tech Stack</h2>
-        <h3> Frontend Development</h3>
-        <ul>
-            <li> HTML, CSS, JavaScript</li>
-            <li>⚛ React.js, Next.js, TypeScript</li>
-        </ul>
-        
-        <h3>🖥 Backend & Database</h3>
-        <ul>
-            <li> Node.js, MongoDB, MySQL</li>
-        </ul>
-        
-        <h3>📱 Mobile Development</h3>
-        <ul>
-            <li> Android Studio</li>
-        </ul>
-        
-        <h3>🎮 Game Development</h3>
-        <ul>
-            <li>🕹 C++, C#, Python</li>
-        </ul>
-        
-        <h2>🎯 NexCore Games</h2>
-        <ul>
-            <li>🚀 <span class="highlight">CEO & Founder</span></li>
-            <li><a href="https://github.com/NexCore-Games">NexCore Games GitHub</a></li>
-        </ul>
-        
-        <h2 id="contact">🔥 Let's Build Something Amazing Together!</h2>
-        <p>If you're into gaming, startups, or full-stack development, let's collaborate! 💡</p>
+        <!-- About Section -->
+        <div class="card">
+            <h2>🌟 About Me</h2>
+            <ul>
+                <li> Working on: <span class="highlight">AR-VR Game Projects</span> & Full-Stack Development</li>
+                <li> Founder of: <span class="highlight">NexCore Games</span></li>
+                <li> Competitive Call of Duty Player (Legendary Rank)</li>
+                <li> Exploring: Traveling, Solo Rider </li>
+                <li><a href="https://www.youtube.com/@ishavlogs5331">Isha Vlogs The World Traveller</a></li>
+            </ul>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="card">
+            <h2>💼 Internship Experience</h2>
+            <ul>
+                <li> Softtek India Private Limited</li>
+                <li> Junior Full Stack Developer</li>
+                <li> Worked on <span class="highlight">Next.js + Backend (Full-Stack Development) </span></li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="card">
+            <h2>🚀 Projects Completed</h2>
+            <ul>
+                <li>📦 TRL Logistics Website</li>
+                <a href="https://logistic-project-ch2b.vercel.app/"><li> TRL </li></a>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="card">
+            <h2>🛠 Skills & Tech Stack</h2>
+            <h3> Frontend Development</h3>
+            <ul>
+                <li> HTML, CSS, JavaScript</li>
+                <li>⚛ React.js, Next.js, TypeScript</li>
+            </ul>
+            <h3>🖥 Backend & Database</h3>
+            <ul>
+                <li> Node.js, MongoDB, MySQL</li>
+            </ul>
+            <h3>📱 Mobile Development</h3>
+            <ul>
+                <li> Android Studio</li>
+            </ul>
+            <h3>🎮 Game Development</h3>
+            <ul>
+                <li>🕹 C++, C#, Python</li>
+            </ul>
+        </div>
+
+        <!-- NexCore Games Section -->
+        <div class="card">
+            <h2>🎯 NexCore Games</h2>
+            <ul>
+                <li>🚀 <span class="highlight">CEO & Founder</span></li>
+                <li><a href="https://github.com/NexCore-Games">NexCore Games GitHub</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="card">
+            <h2>🔥 Let's Build Something Amazing Together!</h2>
+            <p>If you're into gaming, startups, or full-stack development, let's collaborate! 💡</p>
+        </div>
     </div>
 
     <!-- Footer Section -->
     <footer>
-        <div class="footer-links">
+        <div class="social-links">
             <a href="https://github.com/NexCore-Games" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.youtube.com/@ishavlogs5331" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="https://www.linkedin.com/in/shreyas-m-8854941ab/"><i class="fab fa-linkedin"></i></a>
@@ -621,6 +542,14 @@
         <p>© 2023 Shreyas M | NexCore Games. All rights reserved.</p>
         <p>Made with ❤️ by Shreyas M</p>
     </footer>
+
+    <!-- Particles.js Script -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('Particles.js loaded!');
+        });
+    </script>
 </body>
 </html>
 
