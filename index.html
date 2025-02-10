@@ -34,31 +34,31 @@
         .hero::before, .hero::after {
             content: '';
             position: absolute;
-            width: 150px;
-            height: 150px;
-            background: radial-gradient(circle, #ff0099 10%, transparent 50%);
-            filter: blur(80px);
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(255, 0, 153, 0.4) 10%, transparent 50%);
+            filter: blur(100px);
             animation: floating 6s infinite alternate ease-in-out;
         }
         .hero::before {
-            top: 10%;
-            left: 10%;
+            top: 5%;
+            left: 5%;
         }
         .hero::after {
-            bottom: 10%;
-            right: 10%;
-            background: radial-gradient(circle, #00ffcc 10%, transparent 50%);
+            bottom: 5%;
+            right: 5%;
+            background: radial-gradient(circle, rgba(0, 255, 204, 0.4) 10%, transparent 50%);
         }
         @keyframes floating {
-            from { transform: translateY(-10px); }
-            to { transform: translateY(10px); }
+            from { transform: translateY(-15px); }
+            to { transform: translateY(15px); }
         }
         h1 {
             font-size: 3.5rem;
             background: linear-gradient(45deg, #ff0099, #00ffcc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 20px rgba(255, 0, 153, 0.5);
+            text-shadow: 0 0 25px rgba(255, 0, 153, 0.6);
         }
         .subtitle {
             font-size: 1.5rem;
@@ -67,49 +67,50 @@
         }
         .btn {
             margin-top: 20px;
-            padding: 12px 25px;
-            background: #ff0099;
+            padding: 12px 30px;
+            background: linear-gradient(90deg, #ff0099, #00ffcc);
             color: white;
             border: none;
             border-radius: 50px;
             cursor: pointer;
             transition: all 0.3s;
             font-size: 1.1rem;
+            box-shadow: 0 0 15px rgba(255, 0, 153, 0.5);
         }
         .btn:hover {
-            background: #00ffcc;
             transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(0, 255, 204, 0.6);
         }
         /* Card Section */
         .container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
-            padding: 40px;
+            gap: 25px;
+            padding: 50px;
         }
         .card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            padding: 25px;
             border-radius: 12px;
             width: 350px;
-            box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+            box-shadow: 0 0 25px rgba(255, 204, 0, 0.4);
             transition: transform 0.3s, box-shadow 0.3s;
         }
         .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 0 40px rgba(255, 204, 0, 0.6);
+            transform: translateY(-12px);
+            box-shadow: 0 0 45px rgba(255, 204, 0, 0.7);
         }
         /* Footer */
         footer {
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.8);
+            padding: 25px;
+            background: rgba(0, 0, 0, 0.85);
             text-align: center;
-            margin-top: 40px;
+            margin-top: 50px;
         }
         .social-links a {
-            margin: 0 10px;
+            margin: 0 12px;
             font-size: 1.8rem;
             color: #00ffcc;
             transition: color 0.3s, transform 0.2s;
