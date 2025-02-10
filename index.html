@@ -19,7 +19,6 @@
             text-align: center;
             overflow-x: hidden;
         }
-        /* Hero Section */
         .hero {
             height: 100vh;
             display: flex;
@@ -31,57 +30,32 @@
             position: relative;
             overflow: hidden;
         }
-        .hero::before, .hero::after {
-            content: '';
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background: radial-gradient(circle, rgba(255, 0, 153, 0.4) 10%, transparent 50%);
-            filter: blur(100px);
-            animation: floating 6s infinite alternate ease-in-out;
-        }
-        .hero::before {
-            top: 5%;
-            left: 5%;
-        }
-        .hero::after {
-            bottom: 5%;
-            right: 5%;
-            background: radial-gradient(circle, rgba(0, 255, 204, 0.4) 10%, transparent 50%);
-        }
-        @keyframes floating {
-            from { transform: translateY(-15px); }
-            to { transform: translateY(15px); }
-        }
-        h1 {
-            font-size: 3.5rem;
+        .hero h1 {
+            font-size: 4rem;
             background: linear-gradient(45deg, #ff0099, #00ffcc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 25px rgba(255, 0, 153, 0.6);
+            text-shadow: 0 0 30px rgba(255, 0, 153, 0.8);
         }
         .subtitle {
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             margin-top: 10px;
-            opacity: 0.8;
+            opacity: 0.9;
         }
-        .btn {
-            margin-top: 20px;
-            padding: 12px 30px;
-            background: linear-gradient(90deg, #ff0099, #00ffcc);
-            color: white;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s;
-            font-size: 1.1rem;
-            box-shadow: 0 0 15px rgba(255, 0, 153, 0.5);
+        .animated-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 0, 153, 0.2) 10%, transparent 50%);
+            filter: blur(100px);
+            animation: bgMove 10s infinite alternate ease-in-out;
         }
-        .btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 30px rgba(0, 255, 204, 0.6);
+        @keyframes bgMove {
+            from { transform: translateX(-10%) translateY(-10%); }
+            to { transform: translateX(10%) translateY(10%); }
         }
-        /* Card Section */
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -97,17 +71,12 @@
             width: 350px;
             box-shadow: 0 0 25px rgba(255, 204, 0, 0.4);
             transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
         }
         .card:hover {
             transform: translateY(-12px);
             box-shadow: 0 0 45px rgba(255, 204, 0, 0.7);
-        }
-        /* Footer */
-        footer {
-            padding: 25px;
-            background: rgba(0, 0, 0, 0.85);
-            text-align: center;
-            margin-top: 50px;
         }
         .social-links a {
             margin: 0 12px;
@@ -123,9 +92,9 @@
 </head>
 <body>
     <div class="hero">
+        <div class="animated-bg"></div>
         <h1>👋 Hi, I'm Shreyas M!</h1>
         <p class="subtitle">Full Stack Developer | Game Enthusiast | Startup Founder</p>
-        <button class="btn">Explore My Work</button>
     </div>
     <div class="container">
         <div class="card"><h2>🌟 About Me</h2><p>Founder of NexCore Games, working on AR-VR projects and full-stack development.</p></div>
@@ -142,5 +111,15 @@
         </div>
         <p>© 2025 Shreyas M | NexCore Games. All rights reserved.</p>
     </footer>
+    <script>
+        document.addEventListener("mousemove", (e) => {
+            document.querySelectorAll(".card").forEach(card => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                card.style.transform = `rotateY(${x / 20}deg) rotateX(${y / 20}deg)`;
+            });
+        });
+    </script>
 </body>
 </html>
