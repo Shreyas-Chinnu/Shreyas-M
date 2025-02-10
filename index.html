@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shreyas M - Game Developer | NexCore Games</title>
+    <title>Shreyas M - CEO | NexCore Games</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -26,57 +26,55 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background: url('https://source.unsplash.com/1600x900/?cyberpunk,game') no-repeat center center/cover;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            padding: 20px;
             position: relative;
+            overflow: hidden;
         }
-        .hero::before {
+        .hero::before, .hero::after {
             content: '';
             position: absolute;
             width: 150px;
             height: 150px;
             background: radial-gradient(circle, #ff0099 10%, transparent 50%);
+            filter: blur(80px);
+            animation: floating 6s infinite alternate ease-in-out;
+        }
+        .hero::before {
             top: 10%;
             left: 10%;
-            filter: blur(80px);
         }
         .hero::after {
-            content: '';
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            background: radial-gradient(circle, #00ffcc 10%, transparent 50%);
             bottom: 10%;
             right: 10%;
-            filter: blur(80px);
+            background: radial-gradient(circle, #00ffcc 10%, transparent 50%);
+        }
+        @keyframes floating {
+            from { transform: translateY(-10px); }
+            to { transform: translateY(10px); }
         }
         h1 {
-            font-size: 4rem;
+            font-size: 3.5rem;
             background: linear-gradient(45deg, #ff0099, #00ffcc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 15px rgba(255, 0, 153, 0.5);
-            animation: glow 2s infinite alternate;
-        }
-        @keyframes glow {
-            from { text-shadow: 0 0 10px rgba(255, 0, 153, 0.5); }
-            to { text-shadow: 0 0 30px rgba(255, 0, 153, 0.9); }
+            text-shadow: 0 0 20px rgba(255, 0, 153, 0.5);
         }
         .subtitle {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             margin-top: 10px;
-            opacity: 0.9;
-            font-style: italic;
+            opacity: 0.8;
         }
         .btn {
             margin-top: 20px;
-            padding: 15px 30px;
+            padding: 12px 25px;
             background: #ff0099;
             color: white;
             border: none;
             border-radius: 50px;
             cursor: pointer;
-            font-size: 1.2rem;
-            transition: background 0.3s, transform 0.2s;
+            transition: all 0.3s;
+            font-size: 1.1rem;
         }
         .btn:hover {
             background: #00ffcc;
@@ -94,14 +92,14 @@
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             padding: 20px;
-            border-radius: 15px;
+            border-radius: 12px;
             width: 350px;
-            box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
             transition: transform 0.3s, box-shadow 0.3s;
         }
         .card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 0 40px rgba(0, 255, 255, 0.7);
+            box-shadow: 0 0 40px rgba(255, 204, 0, 0.6);
         }
         /* Footer */
         footer {
@@ -112,7 +110,7 @@
         }
         .social-links a {
             margin: 0 10px;
-            font-size: 2rem;
+            font-size: 1.8rem;
             color: #00ffcc;
             transition: color 0.3s, transform 0.2s;
         }
@@ -124,14 +122,15 @@
 </head>
 <body>
     <div class="hero">
-        <h1>🎮 Game On! I'm Shreyas M</h1>
-        <p class="subtitle">Game Developer | Unreal & Unity | Cyberpunk Enthusiast</p>
-        <button class="btn">Explore My Worlds</button>
+        <h1>👋 Hi, I'm Shreyas M!</h1>
+        <p class="subtitle">Full Stack Developer | Game Enthusiast | Startup Founder</p>
+        <button class="btn">Explore My Work</button>
     </div>
     <div class="container">
-        <div class="card"><h2>🚀 My Games</h2><p>Developed immersive AR & VR games, pushing the boundaries of storytelling.</p></div>
-        <div class="card"><h2>💻 Tech Stack</h2><p>Mastery in Unreal Engine, Unity, C++, C#, Blender, and AI-driven NPCs.</p></div>
-        <div class="card"><h2>🕶 Vision</h2><p>Building the next-gen metaverse with lifelike simulations and open-world dynamics.</p></div>
+        <div class="card"><h2>🌟 About Me</h2><p>Founder of NexCore Games, working on AR-VR projects and full-stack development.</p></div>
+        <div class="card"><h2>💼 Experience</h2><p>Interned at Softtek India as a Junior Full Stack Developer.</p></div>
+        <div class="card"><h2>🚀 Projects</h2><p>Developed TRL Logistics Website and more.</p></div>
+        <div class="card"><h2>🛠 Skills</h2><p>Expertise in React, Next.js, Node.js, and game development with C++ and C#.</p></div>
     </div>
     <footer>
         <div class="social-links">
