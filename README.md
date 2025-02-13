@@ -1,50 +1,52 @@
-**👋 Hi, I'm Shreyas M!**
+# 👋 Hey, I'm Shreyas M!
 
-🚀 Full Stack Developer | 🎮 Game Enthusiast | 🚚 Startup Founder
+🚀 **Full Stack Developer | 🎮 Game Enthusiast | 🚀 Startup Founder**  
 
+---
 
-🌟 About Me
+## 🌟 About Me  
 
-🔭 Working on: AR-VR Game Projects & Full-Stack Development
+🔭 **Currently Working On:** AR-VR Game Projects & Full-Stack Development  
+🚀 **Founder of:** NexCore Games  
+🎮 **Competitive Gamer:** Call of Duty (Legendary Rank)  
+💡 **Passionate About:** Technology, Gaming, Startups & Traveling  
 
-🚀 Founder of: NexCore Games
+---
 
-🎮 Competitive Call of Duty Player (Legendary Rank)
+## 🛠 Tech Stack  
 
-💡 Exploring: Entrepreneurship & Traveling
+### 💻 Frontend Development  
+- HTML, CSS, JavaScript  
+- React.js, Next.js  
+- TypeScript  
 
-🛠 Skills & Tech Stack
-💻 Frontend Development
-- HTML, CSS, JavaScript
-- React JS
-- Next JS
-- TypeScript
-  
-🖥 Backend & Database
-- Node JS
-- Mongo DB
-- MySQL
-  
-📱 Mobile Development
-- Android Studio
+### 🖥 Backend & Database  
+- Node.js, Express.js  
+- MongoDB, MySQL  
 
-🎮 Game Development
-- C++
-- C#
-- HTML, CSS, JavaScript
-- Python
+### 📱 Mobile Development  
+- Android Studio  
 
-📈 GitHub Stats
+### 🎮 Game Development  
+- C++, C#  
+- HTML, CSS, JavaScript  
+- Python  
 
- 
- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
+---
 
-📫 **Connect with Me:**  
+## 📈 GitHub Stats  
 
-- 🌐 Portfolio: https://full-stack-portfolio-azure.vercel.app/
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasM&layout=compact&theme=dark)  
 
-- 🏢 LinkedIn: https://www.linkedin.com/in/shreyas-m-8854941ab/ 
+---
 
-- ✉️ E-mail: mshreyas336@gmail.com  
+## 📫 Connect With Me  
 
-🔥 Let's Build Something Amazing Together! 🚀 If you're into gaming, startups, or full-stack development, let's collaborate! 💡
+🌐 **Portfolio:** [full-stack-portfolio-azure.vercel.app](https://full-stack-portfolio-azure.vercel.app/)  
+🏢 **LinkedIn:** [Shreyas M](https://www.linkedin.com/in/shreyas-m-8854941ab/)  
+✉️ **Email:** mshreyas336@gmail.com  
+
+---
+
+🔥 **Let’s Build Something Amazing!** 🚀  
+If you're into gaming, startups, or full-stack development, let’s collaborate! 💡  
