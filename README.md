@@ -6,10 +6,10 @@
 
 ## About Me  
 
-🔭 **Currently Working On:** AR-VR Game Projects & Full-Stack Development  
-🚀 **Founder of:** NexCore Games  
-🎮 **Competitive Gamer:** Call of Duty (Legendary Rank)  
-💡 **Passionate About:** Technology, Gaming, Startups & Traveling  
+**Currently Working On:** AR-VR Game Projects & Full-Stack Development  
+**Founder of:** NexCore Games  
+**Competitive Gamer:** Call of Duty (Legendary Rank)  
+**Passionate About:** Technology, Gaming, Startups & Traveling  
 
 ---
 
