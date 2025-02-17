@@ -13,7 +13,7 @@
 
 ---
 
-## 🛠 Tech Stack  
+## 🛠 Tech Stack :-
 
 ### Frontend Development  
 - HTML, CSS, JavaScript  
