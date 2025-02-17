@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Shreyas M!
+# 👋 Hey, I'm Shreyas M
 
 🚀 **Full Stack Developer | 🎮 Game Enthusiast | 🚀 Startup Founder**  
 
