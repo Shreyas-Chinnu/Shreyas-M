@@ -1,6 +1,6 @@
 # Hey, I'm Shreyas M
 
-**Full Stack Developer | Game Enthusiast & Game Developer | 🚀 Startup Founder**  
+**Full Stack Developer | Game Enthusiast & Game Developer |  Startup Founder**  
 
 ---
 
