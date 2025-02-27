@@ -15,7 +15,7 @@
 
 ## 🛠 Tech Stack :-
 
-### Frontend Development - 
+### Frontend Development
 - HTML, CSS, JavaScript  
 - React.js, Next.js  
 - TypeScript  
