@@ -24,7 +24,7 @@
 - Node.js, Express.js  
 - MongoDB, MySQL  
 
-### Mobile Development -
+### Mobile Development
 - Android Studio  
 
 ### Game Development -
