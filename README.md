@@ -20,7 +20,7 @@
 - React.js, Next.js  
 - TypeScript  
 
-### Backend & Database -
+### Backend & Database
 - Node.js, Express.js  
 - MongoDB, MySQL  
 
