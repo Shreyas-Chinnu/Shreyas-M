@@ -27,7 +27,7 @@
 ### Mobile Development
 - Android Studio  
 
-### Game Development -
+### Game Development
 - C++, C#  
 - HTML, CSS, JavaScript  
 - Python  
