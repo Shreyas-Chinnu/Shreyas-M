@@ -7,8 +7,11 @@
 ## About Me :-
 
 **Currently Working On:** Next Js, Full-Stack Project's 
+
 **Founder of:** NexCore Games  
+
 **Competitive Gamer:** Call of Duty (Legendary Rank, Old School/ Old Player) 
+
 **Passionate About:** Technology, Gaming, Startups & Traveling  
 
 ---
