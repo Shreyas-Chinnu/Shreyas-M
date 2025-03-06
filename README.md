@@ -1,16 +1,16 @@
 # Hey, I'm Shreyas M 👾
 
-### Full-Stack Developer | Game Developer & Enthusiast | Founder of [NexCore Games](https://www.nexcoregames.com)
+### Full-Stack Developer | Game Developer & Enthusiast | CEO & Founder of [NexCore Games](https://www.nexcoregames.com)
 
 ---
 
 ## 🚀 About Me
 
-I'm a **Full-Stack Developer** with a passion for **game development** and building impactful **startups**. I specialize in creating seamless, user-friendly applications and immersive gaming experiences. From backend systems to frontend interfaces, I tackle challenges with cutting-edge technologies.
+I'm a **Full-Stack Developer**, **Game Developer**, and **Entrepreneur** with a passion for **building exceptional tech solutions** and creating immersive gaming experiences. As the sole developer and **CEO** of **NexCore Games**, I take on every role in the company – from game design and development to project management and marketing.
 
-- 🖥 **Currently Working On:** Building high-performance full-stack applications with **Next.js** and **Node.js**  
-- 🎮 **Competitive Gamer:** Achieved **Legendary Rank** in Call of Duty – The thrill of gaming drives my creativity!  
-- 🚀 **Founder of:** [NexCore Games](https://www.nexcoregames.com) – A game development studio creating innovative experiences.  
+- 🖥 **Currently Working On:** Full-Stack Projects with **Next.js** and **Node.js**  
+- 🎮 **Competitive Gamer:** Achieved **Legendary Rank** in Call of Duty – Gaming fuels my creativity and drives my projects.  
+- 🚀 **CEO & Founder of:** [NexCore Games](https://www.nexcoregames.com) – Managing all aspects of game development and studio operations.  
 - 🌍 **Passionate About:** Technology, immersive game design, startup culture, and traveling the world.
 
 ---
@@ -40,11 +40,15 @@ I'm a **Full-Stack Developer** with a passion for **game development** and build
 
 ## 🌟 Featured Projects
 
-### [**NexCore Games**](https://www.nexcoregames.com)
-As the founder of NexCore Games, I’m building next-gen gaming experiences with a dedicated to develope games, artists, and designers. We’re focused on creating unique, engaging worlds.
+### [**NexCore Games**](https://www.nexcoregames.com)  
+As the **CEO** and **sole developer** of NexCore Games, I handle everything from game concept design to development and project execution. From crafting the gameplay mechanics to building the backend and marketing the games, I’m responsible for the entire process. Each game I develop is a result of my personal vision, creativity, and determination to push the boundaries of game development.
 
-### [**Full-Stack Portfolio**](https://full-stack-portfolio-azure.vercel.app)
-A comprehensive showcase of my full-stack development skills, featuring real-time data applications, modern front-end designs, and interactive backends.
+Some of the exciting projects I’m currently working on:
+- Game A: A high-octane multiplayer experience designed to test skill and strategy.
+- Game B: A narrative-driven RPG that immerses players in an expansive, evolving world.
+
+### [**Full-Stack Portfolio**](https://full-stack-portfolio-azure.vercel.app)  
+A comprehensive showcase of my full-stack development projects, featuring real-time data applications, modern front-end designs, and interactive backends. This portfolio represents the diverse range of applications I’ve built using cutting-edge technologies.
 
 ---
 
@@ -59,12 +63,12 @@ A comprehensive showcase of my full-stack development skills, featuring real-tim
 
 ## 🤝 Let’s Build the Future of Tech & Gaming Together!
 
-If you’re looking to collaborate on cutting-edge **web development**, **game development**, or **innovative startups**, I’m all in! Let's create something **extraordinary** and change the game. 🌍💡
+I’m always open to collaboration on **cutting-edge web development**, **game development**, or **innovative startups**. Let's make an impact and build something **extraordinary** that will shape the future of gaming and technology! 🌍💡
 
 ---
 
 ### 💬 Fun Fact
-When I’m not coding, you can find me leveling up in my favorite games or exploring new destinations around the world. 🌍🎮
+When I’m not coding or gaming, you can find me exploring new places around the world and seeking inspiration for my next big idea. 🌍🎮
 
 ---
 
