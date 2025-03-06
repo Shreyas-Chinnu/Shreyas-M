@@ -507,7 +507,7 @@
 </html> --> 
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -663,14 +663,14 @@
 <body>
 
     <!-- Hero Section -->
-    <div class="hero">
+<!--     <div class="hero">
         <div class="parallax"></div>
         <h1>👾 Hi, I'm Shreyas M!</h1>
         <p class="subtitle">Full Stack Developer | Game Developer | Startup Founder | Innovator</p>
     </div>
 
     <!-- Information Cards -->
-    <div class="container">
+<!--     <div class="container">
         <div class="card">
             <h2>🌟 About Me</h2>
             <p>Founder & CEO of NexCore Games. Exploring AR/VR and full-stack technologies to build future-driven experiences.</p>
@@ -690,10 +690,246 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="container">
+<!--     <div class="container">
         <div class="card">
             <h2>📧 Contact</h2>
             <p>Email me at <a href="mailto:mshreyas336@gmail.com">mshreyas336@gmail.com</a></p>
+        </div>
+    </div> -->
+
+    <!-- Footer -->
+<!--     <footer>
+        <div class="social-links">
+            <a href="https://github.com/Shreyas-Chinnu" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/@ishavlogs5331" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/shreyas-m-8854941ab/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:mshreyas336@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>© 2025 Shreyas M | NexCore Games. All rights reserved.</p>
+    </footer>
+
+    <!-- Script for Mouse Interactions -->
+<!--     <script>
+        let parallax = document.querySelector('.parallax');
+
+        window.addEventListener('scroll', () => {
+            let scrollPosition = window.scrollY;
+            parallax.style.transform = `scale(${1 + scrollPosition * 0.002})`;
+        });
+    </script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas M - CEO | NexCore Games | Game Developer | Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #0a0a0a;
+            color: white;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Hero Section with Futuristic Cinematic Effect */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('https://via.placeholder.com/1920x1080') center center no-repeat fixed;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            position: relative;
+            z-index: 10;
+            overflow: hidden;
+            box-shadow: inset 0 0 15px rgba(255, 0, 153, 0.5);
+            transform: scale(1.1);
+        }
+
+        /* Gradient Text Effect */
+        .hero h1 {
+            font-size: 6rem;
+            background: linear-gradient(45deg, #ff0099, #00ffcc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 50px rgba(255, 0, 153, 0.9), 0 0 100px rgba(0, 255, 204, 0.8);
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 2rem;
+            opacity: 0.8;
+            text-shadow: 0 0 15px rgba(255, 0, 153, 0.7), 0 0 20px rgba(0, 255, 204, 0.7);
+        }
+
+        /* Parallax Background Animation */
+        .parallax {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(15px);
+            transform: scale(1.2);
+            z-index: -1;
+            transition: transform 2s ease-out;
+        }
+
+        /* Card Section for Information */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px 10px;
+            z-index: 10;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            padding: 25px;
+            border-radius: 15px;
+            width: 350px;
+            box-shadow: 0 0 50px rgba(255, 204, 0, 0.7);
+            transition: transform 0.3s ease, box-shadow 0.5s ease;
+            margin: 20px;
+            color: #fff;
+        }
+
+        .card:hover {
+            transform: translateY(-20px) rotate(5deg);
+            box-shadow: 0 0 80px rgba(255, 204, 0, 1);
+        }
+
+        .card h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+
+        /* Footer Section with Animated Neon Links */
+        footer {
+            padding: 30px;
+            text-align: center;
+            background: #24243e;
+            color: #fff;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        footer .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        footer .social-links a {
+            font-size: 2.5rem;
+            color: #00ffcc;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        footer .social-links a:hover {
+            color: #ff0099;
+            transform: scale(1.3);
+            text-shadow: 0 0 15px rgba(255, 0, 153, 0.8);
+        }
+
+        /* Hover & Animation Effects */
+        .card h2, .card p {
+            transition: all 0.3s ease;
+        }
+
+        .card:hover h2 {
+            color: #ff0099;
+        }
+
+        .card:hover p {
+            color: #00ffcc;
+        }
+
+        /* Scroll Effect for Parallax */
+        .parallax-effect {
+            animation: parallaxMove 20s infinite linear;
+        }
+
+        @keyframes parallaxMove {
+            0% {
+                transform: translateX(0) translateY(0);
+            }
+            100% {
+                transform: translateX(30%) translateY(30%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section with Parallax Background -->
+    <div class="hero">
+        <div class="parallax parallax-effect"></div>
+        <h1>👾 Hi, I'm Shreyas M!</h1>
+        <p class="subtitle">Full Stack Developer | Game Developer | Startup Founder | Innovator</p>
+    </div>
+
+    <!-- Information Cards -->
+    <div class="container">
+        <div class="card">
+            <h2>🌟 About Me</h2>
+            <p>Founder & CEO of NexCore Games. Passionate about building the future of gaming and AR/VR experiences.</p>
+        </div>
+        <div class="card">
+            <h2>💼 Experience</h2>
+            <p>Worked as a Junior Full-Stack Developer at Softtek India, delivering cutting-edge applications.</p>
+        </div>
+        <div class="card">
+            <h2>🚀 Projects</h2>
+            <p>Developed TRL Logistics Website and a variety of games that push the boundaries of gameplay.</p>
+        </div>
+        <div class="card">
+            <h2>🛠 Skills</h2>
+            <p>Mastering React, Next.js, Node.js, C++, C#, and Unity for game development and full-stack solutions.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <div class="card">
+            <h2>📧 Contact</h2>
+            <p>Get in touch: <a href="mailto:mshreyas336@gmail.com" style="color: #00ffcc;">mshreyas336@gmail.com</a></p>
         </div>
     </div>
 
@@ -707,16 +943,6 @@
         </div>
         <p>© 2025 Shreyas M | NexCore Games. All rights reserved.</p>
     </footer>
-
-    <!-- Script for Mouse Interactions -->
-    <script>
-        let parallax = document.querySelector('.parallax');
-
-        window.addEventListener('scroll', () => {
-            let scrollPosition = window.scrollY;
-            parallax.style.transform = `scale(${1 + scrollPosition * 0.002})`;
-        });
-    </script>
 
 </body>
 </html>
