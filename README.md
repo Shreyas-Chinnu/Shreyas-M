@@ -1,42 +1,54 @@
-# Hey there! I'm Shreyas M 👋
+# Hey, I'm Shreyas M 👾
 
-**Full-Stack Developer | Game Developer & Enthusiast | Founder of NexCore Games**
+### Full-Stack Developer | Game Developer & Enthusiast | Founder of [NexCore Games](https://www.nexcoregames.com)
 
 ---
 
 ## 🚀 About Me
 
-👨‍💻 **Currently Working On:** Full-Stack Projects with **Next.js**  
-🎮 **Competitive Gamer:** Call of Duty (Legendary Rank, Veteran Player)  
-🚀 **Founder of:** [NexCore Games](https://www.nexcoregames.com)  
-🌟 **Passionate About:** Technology, Gaming, Startups, and Traveling  
+I'm a **Full-Stack Developer** with a passion for **game development** and building impactful **startups**. I specialize in creating seamless, user-friendly applications and immersive gaming experiences. From backend systems to frontend interfaces, I tackle challenges with cutting-edge technologies.
 
-I’m a full-stack developer with a deep love for gaming and building cool projects. Whether it’s crafting immersive games or designing full-stack applications, I’m always up for a challenge! Let’s collaborate and create something amazing. 😎
+- 🖥 **Currently Working On:** Building high-performance full-stack applications with **Next.js** and **Node.js**  
+- 🎮 **Competitive Gamer:** Achieved **Legendary Rank** in Call of Duty – The thrill of gaming drives my creativity!  
+- 🚀 **Founder of:** [NexCore Games](https://www.nexcoregames.com) – A game development studio creating innovative experiences.  
+- 🌍 **Passionate About:** Technology, immersive game design, startup culture, and traveling the world.
 
 ---
 
-## 🛠 Tech Stack
+## 💻 Tech Stack
 
 ### Frontend Development
-- **Languages:** HTML, CSS, JavaScript  
-- **Frameworks/Libraries:** React.js, Next.js  
-- **Other:** TypeScript  
+- **Languages:** HTML, CSS, JavaScript, TypeScript  
+- **Frameworks & Libraries:** React.js, Next.js, Redux  
+- **Tools:** TailwindCSS, Styled Components, GraphQL
 
 ### Backend & Database
-- **Backend:** Node.js, Express.js  
-- **Databases:** MongoDB, MySQL  
+- **Backend Frameworks:** Node.js, Express.js  
+- **Databases:** MongoDB, MySQL, PostgreSQL  
+- **Authentication & Security:** JWT, OAuth, Passport.js
 
 ### Mobile Development
-- **Android Development:** Android Studio  
+- **Tools:** Android Studio, React Native
 
 ### Game Development
 - **Languages:** C++, C#  
-- **Web Game Development:** HTML, CSS, JavaScript  
-- **Other:** Python  
+- **Game Engines:** Unity, Unreal Engine  
+- **Web Game Development:** HTML, CSS, JavaScript, Phaser  
+- **Other:** Python (for scripting and game mechanics)
 
 ---
 
-## 📬 Let's Connect!
+## 🌟 Featured Projects
+
+### [**NexCore Games**](https://www.nexcoregames.com)
+As the founder of NexCore Games, I’m building next-gen gaming experiences with a dedicated team of developers, artists, and designers. We’re focused on creating unique, engaging worlds.
+
+### [**Full-Stack Portfolio**](https://full-stack-portfolio-azure.vercel.app)
+A comprehensive showcase of my full-stack development skills, featuring real-time data applications, modern front-end designs, and interactive backends.
+
+---
+
+## 📬 Let’s Connect!
 
 - 🌐 **Portfolio:** [full-stack-portfolio-azure.vercel.app](https://full-stack-portfolio-azure.vercel.app/)  
 - 🧑‍💼 **LinkedIn:** [Shreyas M](https://www.linkedin.com/in/shreyas-m-8854941ab/)  
@@ -45,6 +57,15 @@ I’m a full-stack developer with a deep love for gaming and building cool proje
 
 ---
 
-## 💬 Let’s Build Something Incredible!
+## 🤝 Let’s Build the Future of Tech & Gaming Together!
 
-If you’re into **gaming**, **startups**, or **full-stack development**, I’d love to collaborate! Let’s create something impactful and fun together. 🚀
+If you’re looking to collaborate on cutting-edge **web development**, **game development**, or **innovative startups**, I’m all in! Let's create something **extraordinary** and change the game. 🌍💡
+
+---
+
+### 💬 Fun Fact
+When I’m not coding, you can find me leveling up in my favorite games or exploring new destinations around the world. 🌍🎮
+
+---
+
+> "The best way to predict the future is to create it." – **Abraham Lincoln**
