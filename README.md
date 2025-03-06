@@ -41,7 +41,7 @@ I'm a **Full-Stack Developer** with a passion for **game development** and build
 ## 🌟 Featured Projects
 
 ### [**NexCore Games**](https://www.nexcoregames.com)
-As the founder of NexCore Games, I’m building next-gen gaming experiences with a dedicated team of developers, artists, and designers. We’re focused on creating unique, engaging worlds.
+As the founder of NexCore Games, I’m building next-gen gaming experiences with a dedicated to develope games, artists, and designers. We’re focused on creating unique, engaging worlds.
 
 ### [**Full-Stack Portfolio**](https://full-stack-portfolio-azure.vercel.app)
 A comprehensive showcase of my full-stack development skills, featuring real-time data applications, modern front-end designs, and interactive backends.
