@@ -43,10 +43,6 @@ I'm a **Full-Stack Developer**, **Game Developer**, and **Entrepreneur** with a 
 ### [**NexCore Games**](https://www.nexcoregames.com)  
 As the **CEO** and **sole developer** of NexCore Games, I handle everything from game concept design to development and project execution. From crafting the gameplay mechanics to building the backend and marketing the games, I’m responsible for the entire process. Each game I develop is a result of my personal vision, creativity, and determination to push the boundaries of game development.
 
-Some of the exciting projects I’m currently working on:
-- Game A: A high-octane multiplayer experience designed to test skill and strategy.
-- Game B: A narrative-driven RPG that immerses players in an expansive, evolving world.
-
 ### [**Full-Stack Portfolio**](https://full-stack-portfolio-azure.vercel.app)  
 A comprehensive showcase of my full-stack development projects, featuring real-time data applications, modern front-end designs, and interactive backends. This portfolio represents the diverse range of applications I’ve built using cutting-edge technologies.
 
