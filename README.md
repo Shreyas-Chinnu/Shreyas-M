@@ -19,7 +19,7 @@ I'm a **Full-Stack Developer**, **Game Developer**, and **Entrepreneur** with a 
 
 ### Frontend Development
 - **Languages:** HTML, CSS, JavaScript, TypeScript  
-- **Frameworks & Libraries:** React.js, Next.js, Redux  
+- **Frameworks & Libraries:** React.js, Next.js
 - **Tools:** TailwindCSS, Styled Components, GraphQL
 
 ### Backend & Database
