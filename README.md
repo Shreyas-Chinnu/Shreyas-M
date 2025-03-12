@@ -1,4 +1,4 @@
-# Hey, I'm Shreyas M 👾
+# Hey, I'm Shreyas M 
 
 ### Full-Stack Developer | Game Developer & Enthusiast | CEO & Founder of [NexCore Games](https://www.nexcoregames.com)
 
