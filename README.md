@@ -57,7 +57,7 @@ A comprehensive showcase of my full-stack development projects, featuring real-t
 
 ---
 
-## 🤝 Let’s Build the Future of Tech & Gaming Together!
+## Let’s Build the Future of Tech & Gaming Together!
 
 I’m always open to collaboration on **cutting-edge web development**, **game development**, or **innovative startups**. Let's make an impact and build something **extraordinary** that will shape the future of gaming and technology! 
 
