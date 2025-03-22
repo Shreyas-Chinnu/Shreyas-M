@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 I'm a **Full-Stack Developer**, **Game Developer**, and **Entrepreneur** with a passion for **building exceptional tech solutions** and creating immersive gaming experiences. As the sole developer and **CEO** of **NexCore Games**, I take on every role in the company – from game design and development to project management and marketing.
 
